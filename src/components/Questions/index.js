@@ -23,13 +23,13 @@ import CreateCard from './CreateCard';
 import styles from './styles';
 import colors from '../../utils/colors';
 
-class DeckView extends Component {
+class Questions extends Component {
   state = {
     visible: false,
   };
   _goBack = () => {
     const { navigation } = this.props;
-    navigation.navigate('DeckList');
+    navigation.navigate('Home');
   };
 
   renderEmptyViewScreen = () => (
@@ -50,7 +50,7 @@ class DeckView extends Component {
   );
   _startQuiz = () => {
     const { navigation } = this.props;
-    navigation.navigate('DeckQuiz', this.props.deck);
+    navigation.navigate('Quiz', this.props.deck);
   };
 
   renderCardViewScreen = () => (
@@ -119,4 +119,4 @@ const mapStateToProps = ({ decks, cards }, props) => {
 export default connect(
   mapStateToProps,
   { createQuestionCard }
-)(DeckView);
+)(Questions);

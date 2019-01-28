@@ -1,23 +1,23 @@
 import { createStackNavigator, createAppContainer } from 'react-navigation';
-import DeckList from './components/DeckList';
-import DeckView from './components/DeckView';
-import DeckQuiz from './components/DeckQuiz';
+import Home from './components/Home';
+import Questions from './components/Questions';
+import Quiz from './components/Quiz';
 
 const RouteConfig = createStackNavigator({
-  DeckList: {
-    screen: DeckList,
+  Home: {
+    screen: Home,
     navigationOptions: {
       header: null,
     },
   },
-  DeckView: {
-    screen: DeckView,
+  Questions: {
+    screen: Questions,
     navigationOptions: {
       header: null,
     },
   },
-  DeckQuiz: {
-    screen: DeckQuiz,
+  Quiz: {
+    screen: Quiz,
     navigationOptions: {
       header: null,
     },

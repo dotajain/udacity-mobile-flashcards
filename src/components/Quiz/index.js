@@ -10,7 +10,7 @@ import ScoreView from './ScoreView';
 import styles from './styles';
 import colors from '../../utils/colors';
 
-class DeckQuiz extends Component {
+class Quiz extends Component {
   state = {
     isShowAnswer: false,
     isLastCard: false,
@@ -20,7 +20,7 @@ class DeckQuiz extends Component {
 
   _goBack = () => {
     const { navigation } = this.props;
-    navigation.navigate('DeckView', this.props.deck);
+    navigation.navigate('Questions', this.props.deck);
   };
 
   _showAnswer = () => {
@@ -41,7 +41,7 @@ class DeckQuiz extends Component {
     );
   };
   _backToDeck = () => {
-    this.props.navigation.navigate('DeckList');
+    this.props.navigation.navigate('Home');
   };
   _restartQuiz = () => {
     this.setState({
@@ -132,4 +132,4 @@ const mapStateToProps = ({ decks, cards }, props) => {
 export default connect(
   mapStateToProps,
   {}
-)(DeckQuiz);
+)(Quiz);

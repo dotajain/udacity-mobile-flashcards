@@ -29,7 +29,6 @@ class CreateDeck extends Component {
     const { value } = this.state;
     const isDuplicate = this._isDuplicate(value);
     if (!isDuplicate && value) {
-      console.log('redirect to the Deck Screen');
       this.props.createQuestionDeck(value);
       this.setState({ value: '', error: false });
     } else if (isDuplicate) {

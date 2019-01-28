@@ -13,7 +13,7 @@ import DeckListItems from './DeckListItem';
 import styles from './styles';
 import colors from '../../utils/colors';
 
-class DeckList extends Component {
+class Home extends Component {
   state = {
     visible: false,
   };
@@ -39,7 +39,7 @@ class DeckList extends Component {
 
   _openDeckDetails = deck => {
     const { navigation } = this.props;
-    navigation.navigate('DeckView', deck);
+    navigation.navigate('Questions', deck);
   };
 
   _createQuestionDeck = deck => {
@@ -135,4 +135,4 @@ const mapStateToProps = ({ decks }) => {
 export default connect(
   mapStateToProps,
   { deleteQuestionDeck, createQuestionDeck }
-)(DeckList);
+)(Home);
