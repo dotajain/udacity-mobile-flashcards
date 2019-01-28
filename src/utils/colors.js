@@ -1,0 +1,43 @@
+export default {
+  white: '#ffffff',
+
+  black: '#000000',
+  steel: '#273444',
+  slate: '#3C4858',
+  silver: '#8492A6',
+  smoke: '#E0E6ED',
+  darkSmoke: '#D3DCE6',
+  extraDarkSmoke: '#C0CCDA',
+  snow: '#F9FAFC',
+  darkSnow: '#EFF2F7',
+  extraDarkSnow: '#E5E9F2',
+
+  marvel: '#1fb6ff',
+  green: '#13ce66',
+  yellow: '#ffc82c',
+  orange: '#ff7849',
+  pink: '#ff49db',
+  purple: '#7e5bef',
+  red: '#ff4949',
+
+  darkMarvel: '#009EEB',
+  darkGreen: '#0F9F4F',
+  darkYellow: '#F8B700',
+  darkOrange: '#FF5216',
+  darkPink: '#FF16D1',
+  darkPurple: '#592DEA',
+  darkRed: '#ff1616',
+
+  lightMarvel: '#85D7FF',
+  lightGreen: '#29EB7F',
+  lightYellow: '#FFD55F',
+  lightOrange: '#FF9E7C',
+  lightPink: '#FF7CE5',
+  lightPurple: '#A389F4',
+  lightRed: '#ff7c7c',
+
+  blue: '#1FB6FF',
+  positive: '#13CE66',
+  negative: '#FF4949',
+  warning: '#FFC82C',
+};

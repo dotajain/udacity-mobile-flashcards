@@ -1,0 +1,34 @@
+{
+  "name": "udacity-mobile-flashcards",
+  "version": "1.0.0",
+  "description": "This project is created for Udacity Flash Card Program",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotajain/udacity-mobile-flashcards.git"
+  },
+  "author": "Abhishek Jain <jainvabhi@gmail.com>",
+  "devDependencies": {
+    "react-native-scripts": "2.0.1"
+  },
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios"
+  },
+  "dependencies": {
+    "expo": "^32.0.0",
+    "react": "16.7.0",
+    "react-native": "0.58.2",
+    "lodash": "4.17.11",
+    "prop-types": "15.6.2",
+    "react-native-paper": "2.2.8",
+    "react-navigation": "3.0.9",
+    "react-redux": "6.0.0",
+    "react-style-proptype": "3.2.2",
+    "redux": "^4.0.0-0",
+    "redux-logger": "3.0.6",
+    "redux-thunk": "2.3.0"
+  }
+}
